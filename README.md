@@ -33,7 +33,7 @@ Affordance detection, a task to perceive objects with potential action possibili
 ## ✨ Motivation <a name="3"></a> 
 
 <p align="center">
-    <img src="./image/Motivation.png" width="750"/> <br />
+    <img src="./image/motivation.png" width="750"/> <br />
     <em> 
     </em>
 </p>
