@@ -126,3 +126,20 @@ This project is for research purpose only, please contact us for the licence of 
 }
 ```
 
+```
+@inproceedings{Oneluo,
+  title={One-Shot Affordance Detection},
+  author={Hongchen Luo and Wei Zhai and Jing Zhang and Yang Cao and Dacheng Tao},
+  booktitle={IJCAI},
+  year={2021}
+}
+```
+
+```
+@article{luo2021one,
+  title={One-Shot Object Affordance Detection in the Wild},
+  author={Zhai, Wei and Luo, Hongchen and Zhang, Jing and Cao, Yang and Tao, Dacheng},
+  journal={arXiv preprint arXiv:2108.03658},
+  year={2021}
+}
+```
