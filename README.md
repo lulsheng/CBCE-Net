@@ -7,16 +7,12 @@ TensorFlow implementation of ''Phrase-Based Affordance Detection via Cyclic Bila
  2. [💡 Abstract](#2)
  3. [✨ Motivation](#3)
  4. [📖 Method](#4)
- 5. [📂 Dataset](#4)
- 6. [📃 Requirements](#5)
- 7. [✏️ Usage](#6)
-    1. [Start](#61)
-    2. [Download Datasets](#62)
-    3. [Training](#63)
-    4. [Inference](#64)
- 8. [📊 Experimental Results](#7)
- 11. [✉️ Statement](#8)
- 12. [🔍 Citation](#9)
+ 5. [📂 Dataset](#5)
+ 6. [📃 Requirements](#6)
+ 7. [✏️ Usage](#7)
+ 8. [📊 Experimental Results](#8)
+ 9. [✉️ Statement](#9)
+ 10. [🔍 Citation](#10)
 
 ## 📎 Paper Link <a name="1"></a> 
 > Phrase-Based Affordance Detection via Cyclic Bilateral Interaction ([link](https://arxiv.org/pdf/xxxx.xxxxx.pdf))
@@ -37,7 +33,7 @@ Affordance detection, a task to perceive objects with potential action possibili
 ## ✨ Motivation <a name="3"></a> 
 
 <p align="center">
-    <img src="./image/motivation.png" width="550"/> <br />
+    <img src="./image/Motivation.png" width="550"/> <br />
     <em> 
     </em>
 </p>
@@ -55,7 +51,7 @@ Affordance detection, a task to perceive objects with potential action possibili
 
 **The architecture of our proposed CBCE-Net.** CBCE-Net first uses DeepLab Resnet101 [62] and LSTM [58] to extract multi-level visual and linguistic features, respectively. Subsequently, combining spatial coordinate, multi-level multi-modal features are generated through bilinear fusion operations (see Section IV-B for details). Afterwards, fused features are fed into CIM module to enhance the semantic consistency in a cyclic and bilateral manner (See Section IV-C for details). In CIM module, we design a VLM module (see Section IV-D) and a LVM module (see Section IV-E) to update visual and linguistic features bilaterally with the guidance of each other. VLM is showed in part (b) in the top right corner and LVM is illustrated in part (c). Note that in LVM, the original feature is showed at the top left corner which denoted as Fim and the updated feature is at the output denoting as Fim+1. At last, a ASPP module (shown in part (d)) receives the final concatenated fused features and generate predicted masks (see Section IV-F).
 
-## 📂 Dataset <a name="4"></a> 
+## 📂 Dataset <a name="5"></a> 
 
 <p align="center">
     <img src="./image/word.png" width="750"/> <br />
@@ -74,22 +70,22 @@ Affordance detection, a task to perceive objects with potential action possibili
 
 **Statistics of PAD-L.** Table on the left shows the statistics of all data. The middle chart illustrates the image number and phrase number according to affordance categories. The bars represent image numbers with every part in the bar indicating image number of every object category and the line chart shows phrase numbers. The cloud of phrases on the right has the font sizes proportional to square-root of frequencies in proposed PAD-L.
 
-### Download Datasets <a name="62"></a> 
+### Download Datasets 
 
 * PAD Dataset can be available from [ [Google Drive](https://drive.google.com/file/d/1uKpyIv6rq_R8G2M2ALj6zRe0otkFthPN/view?usp=sharing) | [Baidu Pan](https://pan.baidu.com/s/11lEf4Y05jES2ntb4aS8QaQ) (z40m) ]. The paper of PAD can be obtained from this link ([PAD Paper](https://arxiv.org/abs/2106.14747)) and its project is in [github.com/lhc1224/OSAD_Net](https://github.com/lhc1224/OSAD_Net).
 
 * PAD-L Dataset can be available from [[ Google Drive](https://drive.google.com/drive/folders/16wor2E1MotxeYkSdUC8wTBFMbYM0w1Q9?usp=sharing) | [Baidu Pan](https://pan.baidu.com/s/19ltCRoPuzBLvlhQ4M8PqOA) (qfwj) ].
 
-## 📃 Requirements <a name="5"></a> 
+## 📃 Requirements <a name="6"></a> 
   - python 3
   - tensorflow 
   - opencv 
 
-## ✏️ Usage <a name="6"></a> 
+## ✏️ Usage <a name="7"></a> 
 
 Code will be released.
 
-## 📊 Experimental Results <a name="7"></a> 
+## 📊 Experimental Results <a name="8"></a> 
 
 
 <p align="center">
@@ -116,11 +112,11 @@ Code will be released.
     </em>
 </p>
 
-## ✉️ Statement <a name="8"></a> 
+## ✉️ Statement <a name="9"></a> 
 This project is for research purpose only, please contact us for the licence of commercial use. For any other questions please contact [lulsheng@mail.ustc.edu.cn](lulsheng@mail.ustc.edu.cn) or [wzhai056@mail.ustc.edu.cn](wzhai056@mail.ustc.edu.cn).
 
 
-## 🔍 Citation <a name="9"></a> 
+## 🔍 Citation <a name="10"></a> 
 
 ```
 @inproceedings{Lu2022Phrase,
@@ -129,5 +125,4 @@ This project is for research purpose only, please contact us for the licence of 
   year={2022}
 }
 ```
-
 
