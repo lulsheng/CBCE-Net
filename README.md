@@ -72,18 +72,20 @@ Affordance detection, a task to perceive objects with potential action possibili
 
 ### Download Datasets 
 
-* PAD Dataset can be available from [ [Google Drive](https://drive.google.com/file/d/1uKpyIv6rq_R8G2M2ALj6zRe0otkFthPN/view?usp=sharing) | [Baidu Pan](https://pan.baidu.com/s/11lEf4Y05jES2ntb4aS8QaQ) (z40m) ]. The paper of PAD can be obtained from this link ([PAD Paper](https://arxiv.org/abs/2106.14747)) and its project is in [github.com/lhc1224/OSAD_Net](https://github.com/lhc1224/OSAD_Net).
+* The original PAD Dataset can be available from [ [Google Drive](https://drive.google.com/file/d/1uKpyIv6rq_R8G2M2ALj6zRe0otkFthPN/view?usp=sharing) | [Baidu Pan](https://pan.baidu.com/s/11lEf4Y05jES2ntb4aS8QaQ) (z40m) ]. The paper of PAD can be obtained from this link ([PAD Paper](https://arxiv.org/abs/2106.14747)) and its project is in [github.com/lhc1224/OSAD_Net](https://github.com/lhc1224/OSAD_Net).
 
-* PAD-L Dataset can be available from [[ Google Drive](https://drive.google.com/drive/folders/16wor2E1MotxeYkSdUC8wTBFMbYM0w1Q9?usp=sharing) | [Baidu Pan](https://pan.baidu.com/s/19ltCRoPuzBLvlhQ4M8PqOA) (qfwj) ].
+* PAD-L Dataset and splited PAD Dataset can be available from [ [Google Drive]() | [Baidu Pan]() ] 
+* The generated masks of all the comparison methods in the paper can be available from [[ Google Drive](https://drive.google.com/drive/folders/16wor2E1MotxeYkSdUC8wTBFMbYM0w1Q9?usp=sharing) | [Baidu Pan](https://pan.baidu.com/s/19ltCRoPuzBLvlhQ4M8PqOA) (qfwj) ].
 
 ## 📃 Requirements <a name="6"></a> 
-  - python 3
-  - tensorflow 
+  - python 3.8
+  - tensorflow 1.15
   - opencv 
 
 ## ✏️ Usage <a name="7"></a> 
 
-Code will be released.
+The pretrained model of our method can be found at [ [Google Drive](https://drive.google.com/file/d/1p8kwqsvKkUjoMm4qNgewSP8sZNz-LGEg/view?usp=sharing) | [Baidu Pan]()]
+Download the pretrained GloVe word embedding of PAD-L at [Google Drive](https://drive.google.com/file/d/1NNjLJp5mvxEEIUakGnj2fpRG5scg2zXO/view?usp=sharing) and put it in the folder 
 
 ## 📊 Experimental Results <a name="8"></a> 
 
