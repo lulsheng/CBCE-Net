@@ -123,7 +123,7 @@ This project is for research purpose only, please contact us for the licence of 
 ```
 @inproceedings{Lu2022Phrase,
   title={Phrase-Based Affordance Detection via Cyclic Bilateral Interaction},
-  author={Liangsheng Lu and Wei Zhai and Hongchen Luo and Yang Cao},
+  author={Liangsheng Lu and Wei Zhai and Hongchen Luo and Yu Kang and Yang Cao},
   year={2022}
 }
 ```
