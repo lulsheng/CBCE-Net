@@ -16,7 +16,7 @@ TensorFlow implementation of ''Phrase-Based Affordance Detection via Cyclic Bila
 
 ## 📎 Paper Link <a name="1"></a> 
 > Phrase-Based Affordance Detection via Cyclic Bilateral Interaction ([link](https://arxiv.org/pdf/xxxx.xxxxx.pdf))
-* Authors: Liangsheng Lu*, Wei Zhai*, Hongchen Luo, Yang Cao
+* Authors: Liangsheng Lu*, Wei Zhai*, Hongchen Luo, Yu Kang, Yang Cao
 * Institution: University of Science and Technology of China (USTC)
 
 ## 💡 Abstract <a name="2"></a> 
