@@ -74,7 +74,7 @@ Affordance detection, a task to perceive objects with potential action possibili
 
 * The original PAD Dataset can be available from [ [Google Drive](https://drive.google.com/file/d/1uKpyIv6rq_R8G2M2ALj6zRe0otkFthPN/view?usp=sharing) | [Baidu Pan](https://pan.baidu.com/s/11lEf4Y05jES2ntb4aS8QaQ) (z40m) ]. The paper of PAD can be obtained from this link ([PAD Paper](https://arxiv.org/abs/2106.14747)) and its project is in [github.com/lhc1224/OSAD_Net](https://github.com/lhc1224/OSAD_Net).
 
-* PAD-L Dataset and splited PAD Dataset can be available from [ [Google Drive]() | [Baidu Pan]() ] 
+* PAD-L Dataset and splited PAD Dataset can be available from [ [Google Drive](https://drive.google.com/file/d/1MoyGbo7MkifBwdkvj4CGOHsoqDA43xrz/view?usp=sharing) | [Baidu Pan](https://pan.baidu.com/s/1-NqGVbfk6qmKm1dPlFhxsQ) (9ugv)] 
 
 ## 📃 Requirements <a name="6"></a> 
   - python 3.8
